@@ -23,21 +23,15 @@ header,section{
         #dd2476,#ff512f)
     --light-gray:rgba(255,255,255,0)
 }
-
-
 .header a{
     font-family: var(--Single-font);
     font-size: 0.9em;
     color: whitesmoke;
 }
-
-
 header{
     background: #dd2476;
     background: var(--bggradient);
 }
-
-
 .dropdown-content{
     display: none;
     position: absolute;
