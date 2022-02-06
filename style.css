@@ -29,8 +29,8 @@ header,section{
     color: whitesmoke;
 }
 header{
-    background: #dd2476;
-    background: var(--bggradient);
+    background: #2a53ad45
+    /* background: var(--bggradient); */
 }
 .dropdown-content{
     display: none;
@@ -61,12 +61,23 @@ header .nav-item:last-child{
     padding-right: 10.5em;
 }
 
+.navbar-expand-lg .navbar-collapse {
+    display: flex!important;
+    flex-basis: auto;
+    justify-content: flex-end;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 1.5rem;
+    padding-left: 0.5rem;
+}
+
 header .nav-item{
     padding: 0.9em;
 }
 
 header .navbar-brand{
-    padding-left: 8rem;
+    padding-left: 0rem;
 }
 
 header.nav-link:hover{
@@ -117,6 +128,7 @@ header .container .col-md-7 button{
 .section-1 .row .col-md-6 .pray img{
     opacity: 0.8;
     width: 80%;
+    margin-left: 70px;
     border-radius: 0.2em;
 }
 
@@ -128,6 +140,7 @@ header .container .col-md-7 button{
 .section-1 .row .col-md-6 .panel{
     position: absolute;
     top: 7vmin;
+    margin-right: 50px;
     left: -18vmin;
     background-color: white;
     border-radius: 3px;
@@ -160,5 +173,8 @@ header .container .col-md-7 button{
     background-size: 150%;
     position: relative;
 }
+
+
+
 
 
