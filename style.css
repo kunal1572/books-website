@@ -172,9 +172,9 @@ header .container .col-md-7 button{
 
 .cover{
     width: 100%;
-    height: 55vmin;
-    background: url(/assets/liabrary.jpg);
-    background-position: -24rem -19rem;
+    height: 80vmin;
+    background: url(/assets/g1.jpg);
+    background-position: -20rem -19rem;
     background-size: 150%;
     position: relative;
 }
@@ -227,7 +227,65 @@ header .container .col-md-7 button{
     color: var(--light-black);
     font-family: serif;
     padding-bottom: 2rem;
-
-
 }
 
+.purchase.cards.card{
+    width: 22rem;
+    margin: 3vmin;
+}
+
+.cards div{
+    padding: 4px;
+    margin: 2rem;
+}
+
+.card-title {
+    color: coral;
+    font-family :serif;
+}
+.cards p{
+    color:lightblue;
+}
+/* .card-body>h1{
+    color:rgba(224, 122, 238, 0.568) ;
+} */
+
+#price{
+   h1: color:rgba(50, 0, 231, 0.568) ;
+    margin: 20px;
+}
+
+/* section-3 */
+
+.section-3{
+    height: 70vmin;
+    margin-top: 15vmin;
+    background:#2a53ad45;
+}
+
+#intro h1{
+    font-size: 6vmin;
+    padding:2em 0 0.5em 0;
+    font-family: serif;
+    color: whitesmoke;
+}
+
+#intro p{
+    padding: 0 4em;
+    padding-bottom: 2em;
+    color:darkkhaki;
+    font-family: serif;
+    font-size: 3.4vmin;
+}
+
+.dekstop{
+    background: white;
+    display: inline-block;
+        width: 15rem;
+        height: fit-content;
+        padding: 2vmin 4.5vmin;
+        margin: 0;
+        border-radius: 2rem 2rem;
+       
+   
+}
