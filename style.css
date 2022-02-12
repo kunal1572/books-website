@@ -88,6 +88,11 @@ header.row .col-md-5{
     padding: 4.2vmin 1vmin;
 }
 
+.flex-md-row {
+    flex-direction: row!important;
+    padding: 4rem;
+}
+
 header.row .col-md-7{
     padding: 22vmin 1vmin;
     padding-bottom: 35vmin;
@@ -174,7 +179,55 @@ header .container .col-md-7 button{
     position: relative;
 }
 
+.cover.content{
+    background: rgba(0, 0, 0, 0.7);
+    height: 100%;
+    width: 100%;
+    padding-top: 19vmin;
+}
+
+.cover.content >h1{
+    font-family: var(--Pauta);
+    font-size: 6vmin;
+    color: whitesmoke;
+}
+
+.cover.content >p{
+    font-family: var(--Rubik);
+    font-size: 2vmin;
+    color: white
+}
+
+ .rect{
+    position: relative;
+    z-index: 1;
+    background: white;
+    width: 12rem;
+    height: fit-content;
+    padding-top: 3.5vmin;
+    margin: 1rem;
+    border-radius: 2em 4rem;
+    box-shadow: 1px 2px 50px 0px rgba(148, 191, 211, 0.555);
+    color: rgb(236, 227, 138);
+}
+
+.number{
+    margin-top: 5rem;
+}
+
+.purchase> h2 {
+    font-size: 4rem;
+    font-family: serif;
+    padding-bottom: 0.5em;
+    padding-top: 4vmin;
+}
+
+.purchase >p{
+    font-size: 5vmin;
+    color: var(--light-black);
+    font-family: serif;
+    padding-bottom: 2rem;
 
 
-
+}
 
