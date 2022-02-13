@@ -246,9 +246,6 @@ header .container .col-md-7 button{
 .cards p{
     color:lightblue;
 }
-/* .card-body>h1{
-    color:rgba(224, 122, 238, 0.568) ;
-} */
 
 #price{
    h1: color:rgba(50, 0, 231, 0.568) ;
@@ -284,8 +281,6 @@ header .container .col-md-7 button{
         width: 15rem;
         height: fit-content;
         padding: 2vmin 4.5vmin;
-        margin: 0;
-        border-radius: 2rem 2rem;
-       
-   
+        margin: 10px;
+        border-radius: 2rem 2rem;     
 }
