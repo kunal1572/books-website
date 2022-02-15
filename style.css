@@ -247,10 +247,10 @@ header .container .col-md-7 button{
     color:lightblue;
 }
 
-#price{
+/* #price{
    h1: color:rgba(50, 0, 231, 0.568) ;
     margin: 20px;
-}
+} */
 
 /* section-3 */
 
@@ -278,9 +278,52 @@ header .container .col-md-7 button{
 .dekstop{
     background: white;
     display: inline-block;
-        width: 15rem;
-        height: fit-content;
-        padding: 2vmin 4.5vmin;
-        margin: 10px;
-        border-radius: 2rem 2rem;     
+    width: 15rem;
+    height: fit-content;
+    padding: 2vmin 4.5vmin;
+    margin: .5rem;
+    border-radius: 3em;     
+}
+
+.dekstop h3{
+    font-size: 4vmin;  
+}
+.dekstop p{
+    font-size: 2vmin;  
+}
+
+
+/* section-4 */
+
+.section-4 .container h1{
+    font-size: 6vmin;
+    padding-top: 14vmin;
+}
+
+.section-4 .team{
+    padding: 10vmin 4vmin;
+}
+
+.section-4 .card{
+    width: 22rem;
+    margin-top: 10vmin;
+}
+
+.section-4 .card .card-text{
+    padding: 0.5em;
+}
+
+.section-4 .card .card-body >a{
+    font-size: 1.5em;
+}
+
+.section-4 .ccarousel-item{
+    padding-left: 3rem;
+}
+
+.card-img, .card-img-top {
+    border-radius: 9em;
+    width: 60%;
+    padding-top: 40px;
+    padding-bottom: 40px;
 }
