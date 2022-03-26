@@ -342,10 +342,20 @@ footer p>span{
 footer input{
     border: none !important;
 }
+
 footer input ::placeholder {
     color: white !important;
 }
 
+footer .input-group  .input-group-text{
+    background: rgb(224, 59, 59);
+    border: none !important;
+}
+
+footer .column i{
+    color: chartreuse;
+    padding: 2vmin;
+}
 
 
 
